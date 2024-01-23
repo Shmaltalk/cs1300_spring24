@@ -45,7 +45,7 @@ export default function Navbar() {
             <Image
               objectFit="contain"
               maxWidth="2rem"
-              src="/cs1300-spring24-coursesite/images/home_icon.png"
+              src="./images/home_icon.png"
             />
           </HashLink>
         </Flex>

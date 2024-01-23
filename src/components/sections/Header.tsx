@@ -21,7 +21,7 @@ export default function Header() {
         <Image
           objectFit="contain"
           maxWidth={{ md: "50%", base: "90vw" }}
-          src="/cs1300-spring24-coursesite/images/Header final.png"
+          src="./images/header.png"
         />
         <Flex flexDir={"column"} alignItems={"center"}>
           <Text variant="bigHeader" color="brown">
