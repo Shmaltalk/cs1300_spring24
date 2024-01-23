@@ -57,7 +57,7 @@ export default function Schedule() {
         <iframe
           width="100%"
           height="500px"
-          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTi4IPB2IIMIwvla0-oKAjQ_j68plJVR1iH6j2C9ODnnjpbZGo0gwDnMf80j7YPRfMYFj8Ei-0v8hPV/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRtIAotCKJBMV9JKI8iDh0iDPyvYzUNzEg4o37LWZcQ3rVu4_dgveVUyrCRa86bHtPD0B0ba3fBSh3A/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
         ></iframe>
       </Flex>
     </div>
