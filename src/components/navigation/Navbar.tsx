@@ -41,7 +41,12 @@ export default function Navbar() {
         boxShadow={bgColor == "yellow" ? "0" : "md"}
       >
         <Flex>
-          <HashLink smooth to="/#top" variant="navLink" pr="0">
+          <HashLink
+            smooth
+            to="https://talie.town/cs1300_spring24/#top"
+            variant="navLink"
+            pr="0"
+          >
             <Image
               objectFit="contain"
               maxWidth="2rem"
@@ -50,32 +55,62 @@ export default function Navbar() {
           </HashLink>
         </Flex>
         <Flex>
-          <HashLink smooth to="/#links" variant="navLink" pr="0">
+          <HashLink
+            smooth
+            to="https://talie.town/cs1300_spring24/#links"
+            variant="navLink"
+            pr="0"
+          >
             <ChakraLink variant={bgColor == "yellow" ? "navLink1" : "navLink2"}>
               links
             </ChakraLink>
           </HashLink>
-          <HashLink smooth to="/#todo" variant="navLink" pr="0">
+          <HashLink
+            smooth
+            to="https://talie.town/cs1300_spring24/#todo"
+            variant="navLink"
+            pr="0"
+          >
             <ChakraLink variant={bgColor == "yellow" ? "navLink1" : "navLink2"}>
               todos
             </ChakraLink>
           </HashLink>
-          <HashLink smooth to="/#schedule" variant="navLink" pr="0">
+          <HashLink
+            smooth
+            to="https://talie.town/cs1300_spring24/#schedule"
+            variant="navLink"
+            pr="0"
+          >
             <ChakraLink variant={bgColor == "yellow" ? "navLink1" : "navLink2"}>
               schedule
             </ChakraLink>
           </HashLink>
-          <HashLink smooth to="/#hours" variant="navLink" pr="0">
+          <HashLink
+            smooth
+            to="https://talie.town/cs1300_spring24/#hours"
+            variant="navLink"
+            pr="0"
+          >
             <ChakraLink variant={bgColor == "yellow" ? "navLink1" : "navLink2"}>
               hours
             </ChakraLink>
           </HashLink>
-          <HashLink smooth to="/#staff" variant="navLink" pr="0">
+          <HashLink
+            smooth
+            to="https://talie.town/cs1300_spring24/#staff"
+            variant="navLink"
+            pr="0"
+          >
             <ChakraLink variant={bgColor == "yellow" ? "navLink1" : "navLink2"}>
               staff
             </ChakraLink>
           </HashLink>
-          <HashLink smooth to="/#faq" variant="navLink" pr="0">
+          <HashLink
+            smooth
+            to="https://talie.town/cs1300_spring24/#faq"
+            variant="navLink"
+            pr="0"
+          >
             <ChakraLink variant={bgColor == "yellow" ? "navLink1" : "navLink2"}>
               faq
             </ChakraLink>
