@@ -67,9 +67,9 @@ export default function Links() {
                   Software Guide
                 </Button>
               </Link>
-              <Link to="/">
+              {/* <Link to="/">
                 <Button variant="solidLinkSmall">Deployment Guide</Button>
-              </Link>
+              </Link> */}
             </Flex>
           </Flex>
 
@@ -83,7 +83,7 @@ export default function Links() {
               <Text variant="capitalBody" color="lightGrey" mb=".5rem">
                 ASSIGNMENTS
               </Text>
-              <Link to="/">
+              <Link to="https://www.gradescope.com/courses/715064/assignments">
                 <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
                   <TiDownloadOutline />
                   Assignment Handin
@@ -95,12 +95,12 @@ export default function Links() {
                   Studio Handin
                 </Button>
               </Link>
-              <Link to="/">
+              {/* <Link to="/">
                 <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
                   <TiDownloadOutline />
                   Late Pass Form
                 </Button>
-              </Link>
+              </Link> */}
               <Link to="/">
                 <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
                   <TiDownloadOutline />
@@ -120,16 +120,22 @@ export default function Links() {
                   Studio Swap Form
                 </Button>
               </Link>
-              <Link to="/">
+              {/* <Link to="/">
                 <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
                   <TiDownloadOutline />
                   Feedback Form
                 </Button>
-              </Link>
+              </Link> */}
               <Link to="/">
                 <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
                   <TiDownloadOutline />
                   Dean's/Doctor's Note
+                </Button>
+              </Link>
+              <Link to="https://forms.gle/iGGBaaumNL9URRq8A">
+                <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
+                  <TiDownloadOutline />
+                  Accommodation Request Form
                 </Button>
               </Link>
             </Flex>
