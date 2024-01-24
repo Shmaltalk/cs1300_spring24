@@ -8,15 +8,15 @@ type StaffInfo = {
 const allStaff: StaffInfo[] = [
   {
     name: "[instructor] Talie",
-    desc: "Hi I'm Talie, I'm a fourth year PhD Candidate working with Prof. Jeff Huang. In my free time I like to watch cooking shows and play board games. Looking forward to working with you all this semester!",
+    desc: "Hi I'm Talie, I'm a fifth year PhD Candidate working with Prof. Jeff Huang. In my free time I like to watch cooking shows and play board games. I'm looking forward to working with you all this semester!",
     pooh: "./images/icons/pooh1.png",
-    real: "./images/icons/pooh1.png",
+    real: "./images/tas/talie.jpg",
   },
   {
     name: "[instructor] Vanessa",
     desc: "Hi I'm Vanessa, I'm an Adjunct Professor of the Practice. Currently, I am a Design Partner at Google Ventures and prior to that, I ran UX teams for Google Workspace, GoPro and Walmart Labs. I love advising students going into tech, travel and trying new condiments!",
     pooh: "./images/icons/pooh2.png",
-    real: "./images/icons/pooh2.png",
+    real: "./images/tas/vanessa.jpg",
   },
   {
     name: "[hta] Caitlin",
