@@ -37,7 +37,7 @@ export default function Schedule() {
           Canvas in the Files and Media Library folders, respectively. The links
           in the schedule below are added later only for convenience.
         </Text>
-        <Link to="/">
+        {/* <Link to="/">
           <Button
             variant="solidLink"
             bg="white"
@@ -53,7 +53,7 @@ export default function Schedule() {
           >
             SCHEDULE LINK
           </Button>
-        </Link>
+        </Link> */}
         <iframe
           width="100%"
           height="500px"

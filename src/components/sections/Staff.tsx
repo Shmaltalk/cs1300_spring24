@@ -28,7 +28,11 @@ export default function Staff() {
         role="complementary"
         aria-label="staff section"
       >
-        <Text variant="subHeader" color="darkGrey" aria-description="course staff">
+        <Text
+          variant="subHeader"
+          color="darkGrey"
+          aria-description="course staff"
+        >
           pooh + friends!
         </Text>
         <Flex
@@ -38,23 +42,26 @@ export default function Staff() {
           flexWrap={"wrap"}
         >
           <ContactInfo
-            email="UIUXTAS@LISTS.CS.BROWN.EDU"
+            email="CS1300TAS@LISTS.CS.BROWN.EDU"
             desc="email all tas; use this by default"
           />
           <ContactInfo
-            email="UIUXHTAS@LISTS.CS.BROWN.EDU"
+            email="cs1300headtas@lists.brown.edu"
             desc="htas, grad tas, talie & vanessa"
           />
-          <ContactInfo email="JEFF@CS.BROWN.EDU" desc="sensitive issues" />
+          <ContactInfo
+            email="cs1300-instructors@brown.edu"
+            desc="sensitive issues"
+          />
         </Flex>
-        <Flex
-          w="100%"
-          gap="1rem"
-          flexWrap={"wrap"}
-          justifyContent={"center"}
-        >
+        <Flex w="100%" gap="1rem" flexWrap={"wrap"} justifyContent={"center"}>
           {allStaff.map((s, key) => (
-            <StaffMember name={s.name} desc={s.desc} pooh={s.pooh} real={s.real}/>
+            <StaffMember
+              name={s.name}
+              desc={s.desc}
+              pooh={s.pooh}
+              real={s.real}
+            />
           ))}
         </Flex>
       </Flex>

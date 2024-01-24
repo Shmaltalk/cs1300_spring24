@@ -19,7 +19,7 @@ type Reading = {
 };
 
 const currAssignment: CurrentAssignment = {
-    title: "Responsive Redesign",
+    title: "TBA",
     released: "TBA",
     due: "TBA",
     handoutLink: null,
@@ -27,21 +27,21 @@ const currAssignment: CurrentAssignment = {
 }
 
 const currStudio: CurrentStudio = {
-    title: "HTML/CSS",
+    title: "TBA",
     due: "TBA",
     handoutLink: null,
     handinLink: null
 }
 
 const readings: Reading[] = [
-  {
-    title: "Syllabus",
-    link: "/",
-  },
-  {
-    title: "Affordances",
-    link: "/",
-  },
+  // {
+  //   title: "Syllabus",
+  //   link: "/",
+  // },
+  // {
+  //   title: "Affordances",
+  //   link: "/",
+  // },
 ];
 
 export {currAssignment, currStudio, readings}

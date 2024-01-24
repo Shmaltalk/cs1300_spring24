@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 import customTheme from "../../styles/theme";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { Link as ChakraLink, LinkProps } from "@chakra-ui/react";
-import { TiArrowBackOutline, TiDownloadOutline, TiStopwatch } from "react-icons/ti";
-
-
+import {
+  TiArrowBackOutline,
+  TiDownloadOutline,
+  TiStopwatch,
+} from "react-icons/ti";
 
 export default function Links() {
   return (
@@ -42,70 +44,80 @@ export default function Links() {
               <Text variant="capitalBody" color="lightGrey" mb=".5rem">
                 WEBSITES
               </Text>
-              <Link to="https://canvas.brown.edu/courses/1094692" target="blank">
+              <Link
+                to="https://canvas.brown.edu/courses/1094692"
+                target="_blank"
+              >
                 <Button variant="solidLinkSmall" mb="1rem">
                   CANVAS
                 </Button>
               </Link>
               <Link
-                to="https://www.gradescope.com/courses/715064"
-                target="blank"
+                to="https://www.gradescope.com/courses/715064/assignments"
+                target="_blank"
               >
                 <Button variant="solidLinkSmall" mb="1rem">
                   GRADESCOPE
                 </Button>
               </Link>
               <Link to="https://talie.town/cs1300_spring24/">
-                <Button variant="solidLinkSmall" mb="1rem">
-                  EDSTEM
-                </Button>
+                <Button variant="solidLinkSmall">EDSTEM</Button>
               </Link>
-              <Link
-                to="https://docs.google.com/document/d/1qvwOuIJ6BKtt3l-noSUTa553aQ1beHsMG6lk-qgg1Aw/edit?usp=sharing"
-                target="blank"
-              >
-                <Button variant="solidLinkSmall">Syllabus</Button>
-              </Link>
-              {/* </Flex> */}
+            </Flex>
 
-              {/* COURSE DOCS */}
-              {/* <Flex flexDir={"column"}>
+            {/* COURSE DOCS */}
+            <Flex flexDir={"column"}>
               <Text variant="capitalBody" color="lightGrey" mb=".5rem">
                 Course Docs
               </Text>
-              <Link to="/">
+              <Link
+                to="https://docs.google.com/document/d/1qvwOuIJ6BKtt3l-noSUTa553aQ1beHsMG6lk-qgg1Aw/edit?usp=sharing"
+                target="_blank"
+              >
                 <Button variant="solidLinkSmall" mb="1rem">
                   Syllabus
                 </Button>
               </Link>
-              <Link to="/">
+              <Link to="https://talie.town/cs1300_spring24/">
                 <Button variant="solidLinkSmall" mb="1rem">
                   Software Guide
                 </Button>
               </Link>
-              <Link to="/">
+              {/* <Link to="/">
                 <Button variant="solidLinkSmall">Deployment Guide</Button>
-              </Link>
-            </Flex> */}
+              </Link> */}
             </Flex>
+          </Flex>
 
-            {/* <Flex
+          <Flex
             flexDir={{ md: "row", base: "column" }}
             alignItems={"flex-start"}
             gap={"2rem"}
-          > */}
+          >
             {/* COURSE FORMS */}
             <Flex flexDir={"column"}>
               <Text variant="capitalBody" color="lightGrey" mb=".5rem">
                 ASSIGNMENTS
               </Text>
+              <Link
+                to="https://www.gradescope.com/courses/715064/assignments"
+                target="blank"
+              >
+                <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
+                  <TiDownloadOutline />
+                  Assignment Handin
+                </Button>
+              </Link>
               <Link to="https://talie.town/cs1300_spring24/">
                 <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
                   <TiDownloadOutline />
                   Studio Handin
                 </Button>
               </Link>
-              <Link to="https://forms.gle/emqG5dWFDehqRfmZ6" target="blank">
+              <Link
+                to="https://docs.google.com/forms/d/e/1FAIpQLScoFu1vYAtxhVZIvL0B-WATP2MN1nIcCCZlHvoowJsyWIia7A/viewform?usp=sharing"
+                target="blank"
+              >
                 <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
                   <TiDownloadOutline />
                   Regrade Request Form
@@ -118,28 +130,34 @@ export default function Links() {
               <Text variant="capitalBody" color="lightGrey" mb=".5rem">
                 logistical
               </Text>
-              <Link to="https://forms.gle/frfoVeTNFLZ3vHdV7" target="blank">
+              <Link
+                to="https://docs.google.com/forms/d/e/1FAIpQLSesjhFQuHG7uPBJiwYRmpkkr4PslO8xW1k6Pw_RDOGJdPJm6w/viewform?usp=sharing"
+                target="_blank"
+              >
                 <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
                   <TiDownloadOutline />
                   Studio Swap Form
                 </Button>
               </Link>
-              <Link to="https://talie.town/cs1300_spring24/">
+              {/* <Link to="/">
                 <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
                   <TiDownloadOutline />
                   Feedback Form
                 </Button>
-              </Link>
-              <Link to="https://forms.gle/qkrmKFtPEqZKSQy56" target="blank">
+              </Link> */}
+              <Link
+                to="https://docs.google.com/forms/d/e/1FAIpQLSfgVrzQTZfOgAs0w4DqSazlVh3fLqg9GRdGhvG2vAqaOaXXTw/viewform?usp=sharing"
+                target="_blank"
+              >
                 <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
                   <TiDownloadOutline />
-                  Dean's/Doctor's Note Form
+                  Dean's/Doctor's Note
                 </Button>
               </Link>
-              <Link to="https://forms.gle/Te6pAGBNiF5aZa3g6" target="blank">
+              <Link to="https://forms.gle/iGGBaaumNL9URRq8A" target="_blank">
                 <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
                   <TiDownloadOutline />
-                  Accomodations Form
+                  Accommodation Request Form
                 </Button>
               </Link>
             </Flex>

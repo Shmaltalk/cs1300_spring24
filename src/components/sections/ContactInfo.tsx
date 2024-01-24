@@ -33,7 +33,7 @@ export default function ContactInfo(props: ContactProps) {
         w="5px"
       />
       <Flex flexDir={"column"} justifyContent={"flex-start"} role="complementary" aria-label="contact info">
-        <Text variant="subtitle" fontSize={"1rem"} textAlign={"left"} letterSpacing={"0rem"} color="mediumGrey">
+        <Text variant="subtitle" fontSize={"1rem"} textAlign={"left"} letterSpacing={"0rem"} color="mediumGrey" textTransform={"uppercase"}>
           {props.email}
         </Text>
         <Text variant="subscript" fontStyle={"italic"} textAlign={"left"} color="lightGrey">

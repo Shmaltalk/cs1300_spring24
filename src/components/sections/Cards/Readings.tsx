@@ -29,6 +29,7 @@ export default function Assignment() {
       padding="1rem"
       role="complementary"
       aria-label="current readings information"
+      display={readings.length == 0? "none" : "flex"}
     >
       <Stack>
         <Text variant="tinyHeader" textAlign={"center"}>
