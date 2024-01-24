@@ -40,7 +40,7 @@ export default function Header() {
             tues/thurs 1-2:20pm
           </Text>
           <Text variant="capitalBody" color="brown">
-            metcalf auditorium
+            Kassar House, Foxboro Auditorium
           </Text>
         </Flex>
       </Flex>
