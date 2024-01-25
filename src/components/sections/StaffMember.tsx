@@ -33,9 +33,8 @@ export default function StaffMember(props: StaffInfo) {
     role="complementary"
     aria-label={props.name + " information card"}>
       <Image
-        objectFit="cover"
-        maxW="30%"
-        height={"100%"}
+        objectFit={avatarImg == props.pooh? "contain" : "cover"}
+        maxW="10rem"
         src={avatarImg}
         borderRadius={"1rem"}
         onMouseOver={() => setImg(props.real)}
