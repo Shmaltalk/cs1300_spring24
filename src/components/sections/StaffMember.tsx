@@ -29,12 +29,18 @@ interface StaffInfo{
 export default function StaffMember(props: StaffInfo) {
     const [avatarImg, setImg] = useState<string>(props.pooh);
   return (
-    <Card bg="transparent" direction="row" w={{ md: "30rem", base: "30rem" }} shadow={"none"}
-    role="complementary"
-    aria-label={props.name + " information card"}>
+    <Card
+      bg="transparent"
+      direction={{ sm: "row", base: "column" }}
+      w="30rem"
+      shadow={"none"}
+      role="complementary"
+      aria-label={props.name + " information card"}
+      alignItems={{ sm: "flex-start", base: "center" }}
+    >
       <Image
-        objectFit={avatarImg == props.pooh? "contain" : "cover"}
-        maxW="10rem"
+        objectFit={avatarImg == props.pooh ? "contain" : "cover"}
+        maxW={{ sm: "10rem", base: "7rem" }}
         src={avatarImg}
         borderRadius={"1rem"}
         onMouseOver={() => setImg(props.real)}
@@ -42,10 +48,7 @@ export default function StaffMember(props: StaffInfo) {
         padding=".2rem"
         aria-label={props.name + " image"}
       />
-      <Stack
-        alignItems={"flex-start"}
-        justifyContent={"flex-start"}
-      >
+      <Stack alignItems={"flex-start"} justifyContent={"flex-start"}>
         <CardBody
           alignItems={"flex-start"}
           justifyContent={"flex-start"}
@@ -59,7 +62,13 @@ export default function StaffMember(props: StaffInfo) {
           >
             {props.name}
           </Text>
-          <Text variant="subscript" aria-label={props.name + " description"} textAlign={"justify"}>{props.desc}</Text>
+          <Text
+            variant="subscript"
+            aria-label={props.name + " description"}
+            textAlign={"justify"}
+          >
+            {props.desc}
+          </Text>
         </CardBody>
       </Stack>
     </Card>

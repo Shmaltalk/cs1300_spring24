@@ -38,7 +38,7 @@ export default function Staff() {
         <Flex
           alignItems={"center"}
           gap="1rem"
-          justifyContent={"center"}
+          justifyContent={{ sm: "center", base: "flex-start" }}
           flexWrap={"wrap"}
         >
           <ContactInfo
@@ -54,7 +54,7 @@ export default function Staff() {
             desc="sensitive issues"
           />
         </Flex>
-        <Flex w="100%" gap="1rem" flexWrap={"wrap"} justifyContent={"center"}>
+        <Flex w="100%" gap="1.5rem" flexWrap={"wrap"} justifyContent={"center"}>
           {allStaff.map((s, key) => (
             <StaffMember
               name={s.name}
