@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cs1300_spring24/static/css/main.7d75928c.css",
-    "main.js": "/cs1300_spring24/static/js/main.7667450e.js",
+    "main.css": "/cs1300_spring24/static/css/main.dbd9ccb6.css",
+    "main.js": "/cs1300_spring24/static/js/main.b7f962e0.js",
     "static/media/inter-latin-ext-wght-normal.woff2": "/cs1300_spring24/static/media/inter-latin-ext-wght-normal.fbd6dc6ea3a2a849b6fc.woff2",
     "static/media/inter-latin-wght-normal.woff2": "/cs1300_spring24/static/media/inter-latin-wght-normal.e62404dc3261fb537f3a.woff2",
     "static/media/inter-cyrillic-ext-wght-normal.woff2": "/cs1300_spring24/static/media/inter-cyrillic-ext-wght-normal.92dcb004dd66a14761da.woff2",
@@ -194,11 +194,11 @@
     "static/media/bagel-fat-one-95-400-normal.woff": "/cs1300_spring24/static/media/bagel-fat-one-95-400-normal.f7c3bdb4c614f55abcc4.woff",
     "static/media/bagel-fat-one-96-400-normal.woff": "/cs1300_spring24/static/media/bagel-fat-one-96-400-normal.ff4b9ae29cfff31755f0.woff",
     "index.html": "/cs1300_spring24/index.html",
-    "main.7d75928c.css.map": "/cs1300_spring24/static/css/main.7d75928c.css.map",
-    "main.7667450e.js.map": "/cs1300_spring24/static/js/main.7667450e.js.map"
+    "main.dbd9ccb6.css.map": "/cs1300_spring24/static/css/main.dbd9ccb6.css.map",
+    "main.b7f962e0.js.map": "/cs1300_spring24/static/js/main.b7f962e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d75928c.css",
-    "static/js/main.7667450e.js"
+    "static/css/main.dbd9ccb6.css",
+    "static/js/main.b7f962e0.js"
   ]
 }
