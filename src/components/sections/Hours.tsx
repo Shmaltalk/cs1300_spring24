@@ -45,16 +45,17 @@ export default function Hours() {
           color="white"
           textAlign={"center"}
         >
-          To sign up for hours, visit
+          To add this google calender, click
           <ChakraLink
             as={ReactRouterLink}
-            to="https://hours.cs.brown.edu/"
+            to="https://calendar.google.com/calendar/u/0?cid=Y18wNDZhODRmOTUyOTNkZTYzZWQ2ZWUxMjQ3OGY3MzUxMTNlNDUzZGFkZmIzYTM4NDk5YWI5OTg5NWQ1M2ExMjZlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20"
             variant={"embedLink"}
           >
-            HOURS
+            here.
           </ChakraLink>
+          To sign up for hours, click the button below.
         </Text>
-        <Link to="https://calendar.google.com/calendar/u/0?cid=Y18wNDZhODRmOTUyOTNkZTYzZWQ2ZWUxMjQ3OGY3MzUxMTNlNDUzZGFkZmIzYTM4NDk5YWI5OTg5NWQ1M2ExMjZlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">
+        <Link to="https://hours.cs.brown.edu/">
           <Button
             variant="solidLink"
             bg="yellow"
@@ -69,7 +70,7 @@ export default function Hours() {
             }}
             mb="2rem"
           >
-            GCAL LINK
+            SIGN UP FOR HOURS
           </Button>
         </Link>
         <iframe

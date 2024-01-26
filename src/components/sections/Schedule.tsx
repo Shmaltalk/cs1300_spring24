@@ -27,15 +27,35 @@ export default function Schedule() {
         role="complementary"
         aria-label="current events section"
       >
-        <Text variant="subHeader" color="darkGrey">schedule</Text>
+        <Text variant="subHeader" color="darkGrey">
+          schedule
+        </Text>
         <Text variant="subscript" mb="1.5rem" w="70%">
           We highly recommend bookmarking this schedule, as this contains all
           information regarding assignments, lectures, studios, and readings.
           <br></br>
           <br></br>
           Note: slides and lecture capture are firstly and always available on
-          Canvas in the Files and Media Library folders, respectively. The links
-          in the schedule below are added later only for convenience.
+          Canvas in the
+          <ChakraLink
+            as={ReactRouterLink}
+            to="https://canvas.brown.edu/courses/1094692/files"
+            variant={"embedLink"}
+            color="black"
+          >
+            FILES
+          </ChakraLink>
+          and
+          <ChakraLink
+            as={ReactRouterLink}
+            to="https://canvas.brown.edu/courses/1094692/external_tools/33943"
+            variant={"embedLink"}
+            color="black"
+          >
+            MEDIA LIBRARY
+          </ChakraLink>
+          folders, respectively. The links in the schedule below are added later
+          only for convenience.
         </Text>
         {/* <Link to="/">
           <Button

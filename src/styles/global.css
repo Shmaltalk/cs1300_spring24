@@ -36,9 +36,6 @@ body{
     overflow-x: hidden;
 }
 
-a{
-    color: red
-}
 
  /* SCROLLBAR */
 
@@ -46,6 +43,13 @@ a{
     background: white;
     border-radius: 15px;
     height: 20px;
+}
+
+#inline-link {
+    color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 ::-webkit-scrollbar {

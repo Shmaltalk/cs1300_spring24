@@ -13,7 +13,7 @@ const questions: Question[] = [
         Yes. For Spring 2024 the course will be capped to 100 students. If you
         would like to join the class, please request an override code on C@B and
         fill out{" "}
-        <a href="https://forms.gle/NvXk31zwwjmkE13P8">
+        <a id="inline-link" href="https://forms.gle/NvXk31zwwjmkE13P8">
           THIS FORM to join the waitlist
         </a>
         . Students will be admitted into the course during the first week of
@@ -26,7 +26,9 @@ const questions: Question[] = [
     a: (
       <>
         Yes. You can{" "}
-        <a href="https://forms.gle/NvXk31zwwjmkE13P8">find the waitlist HERE</a>
+        <a id="inline-link" href="https://forms.gle/NvXk31zwwjmkE13P8">
+          find the waitlist HERE
+        </a>
         . After the first week of class we will admit people off the waitlist
         who have an open override request in C@B and who have the course in
         their cart on C@B. Note that because the course is capped we may not be

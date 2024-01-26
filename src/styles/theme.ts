@@ -157,14 +157,14 @@ const components = {
       }),
       embedLink: () => ({
         fontFamily: fonts.body,
-        fontWeight: "500",
-        letterSpacing: "-.05rem",
+        fontWeight: "800",
         textDecoration: "underline",
         transition: "all 0.4s",
         color: colors.yellow,
+        textTransform: "lowercase",
         paddingX: ".2rem",
         _hover: {
-          color: "lightGrey",
+          color: "white",
           transition: "all 0.4s",
         },
       }),
