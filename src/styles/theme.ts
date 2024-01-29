@@ -38,7 +38,7 @@ const components = {
         color: colors.mediumGrey,
         width: "10rem",
         height: "2.2rem",
-        bg: "white",
+        bg: "yellow",
         _hover: {
           color: colors.yellow,
           fontSize: ".8rem",

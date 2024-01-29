@@ -36,7 +36,7 @@ export default function Assignment() {
           readings
         </Text>
         {readings.map((r, key) => (
-          <Link to={r.link}>
+          <Link to={r.link} target="_blank">
             <Button variant="solidLink" bg="yellow" color="darkGrey">
               {r.title}
             </Button>
