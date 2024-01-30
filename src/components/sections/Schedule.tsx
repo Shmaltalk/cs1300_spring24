@@ -39,11 +39,11 @@ export default function Schedule() {
           Canvas in the
           <ChakraLink
             as={ReactRouterLink}
-            to="https://canvas.brown.edu/courses/1094692/files"
+            to="https://drive.google.com/drive/folders/1GpKZOHTEy9RZN7R95vVuqCuGOOyF45KO?usp=sharing"
             variant={"embedLink"}
             color="black"
           >
-            FILES
+            SLIDES FOLDER
           </ChakraLink>
           and
           <ChakraLink
