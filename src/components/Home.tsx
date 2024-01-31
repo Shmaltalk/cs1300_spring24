@@ -16,7 +16,7 @@ export default function Home() {
     <div role="main">
       <Header />
       <Links />
-      <Todo/>
+      {/* <Todo/> */}
       <Schedule/>
       <Hours/>
       <Staff/>

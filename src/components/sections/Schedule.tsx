@@ -19,7 +19,7 @@ export default function Schedule() {
       <Flex
         justifyContent={"flex-start"}
         alignItems={"center"}
-        bg="yellow"
+        bg="offWhite"
         flexDir={"column"}
         pt="3rem"
         pb="5rem"
