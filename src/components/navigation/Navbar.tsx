@@ -65,7 +65,7 @@ export default function Navbar() {
               links
             </ChakraLink>
           </HashLink>
-          <HashLink
+          {/* <HashLink
             smooth
             to="https://talie.town/cs1300_spring24/#todo"
             variant="navLink"
@@ -74,7 +74,7 @@ export default function Navbar() {
             <ChakraLink variant={bgColor == "yellow" ? "navLink1" : "navLink2"}>
               todos
             </ChakraLink>
-          </HashLink>
+          </HashLink> */}
           <HashLink
             smooth
             to="https://talie.town/cs1300_spring24/#schedule"

@@ -76,7 +76,7 @@ export default function SideNav(props: SideNavProps) {
               links
             </ChakraLink>
           </HashLink>
-          <HashLink
+          {/* <HashLink
             smooth
             to="https://talie.town/cs1300_spring24/#todo"
             variant="navLink"
@@ -85,7 +85,7 @@ export default function SideNav(props: SideNavProps) {
             <ChakraLink variant={"sideLink"} onClick={closeNav}>
               todos
             </ChakraLink>
-          </HashLink>
+          </HashLink> */}
           <HashLink
             smooth
             to="https://talie.town/cs1300_spring24/#schedule"
