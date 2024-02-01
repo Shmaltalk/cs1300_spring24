@@ -78,9 +78,9 @@ export default function Links() {
                   Syllabus
                 </Button>
               </Link>
-              <Link to="https://talie.town/cs1300_spring24/">
+              <Link to="https://docs.google.com/document/d/1eEwV4SK4I3DbmzGnPUzbZWkgpW31U8S_0tWnkUIQQIo/edit?usp=sharing">
                 <Button variant="solidLinkSmall" mb="1rem">
-                  Software Guide
+                  Figma Setup Guide
                 </Button>
               </Link>
               {/* <Link to="/">
