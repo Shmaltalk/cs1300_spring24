@@ -56,6 +56,10 @@ export default function Schedule() {
           </ChakraLink>
           folders, respectively. The links in the schedule below are added later
           only for convenience.
+          <br></br>
+          <br></br>
+
+          <b>For studio locations, please see the Hours calendar in the section below.</b>
         </Text>
         {/* <Link to="/">
           <Button
