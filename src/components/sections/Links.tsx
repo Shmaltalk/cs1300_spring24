@@ -105,13 +105,7 @@ export default function Links() {
               >
                 <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
                   <TiDownloadOutline />
-                  Assignment Handin
-                </Button>
-              </Link>
-              <Link to="https://talie.town/cs1300_spring24/">
-                <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
-                  <TiDownloadOutline />
-                  Studio Handin
+                  Assignment/Studio Handin
                 </Button>
               </Link>
               <Link
@@ -131,7 +125,7 @@ export default function Links() {
                 logistical
               </Text>
               <Link
-                to="https://docs.google.com/forms/d/e/1FAIpQLSesjhFQuHG7uPBJiwYRmpkkr4PslO8xW1k6Pw_RDOGJdPJm6w/viewform?usp=sharing"
+                to="https://docs.google.com/forms/d/1i_upk4ibvRbVGf_FX6QYqfbiOaBOkAxcyRdBLPAkRnI/edit"
                 target="_blank"
               >
                 <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
