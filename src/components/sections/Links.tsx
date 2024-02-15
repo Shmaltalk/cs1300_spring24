@@ -60,7 +60,7 @@ export default function Links() {
                   GRADESCOPE
                 </Button>
               </Link>
-              <Link to="https://talie.town/cs1300_spring24/">
+              <Link to="https://edstem.org/us/courses/54347/discussion/">
                 <Button variant="solidLinkSmall">EDSTEM</Button>
               </Link>
             </Flex>
@@ -78,14 +78,14 @@ export default function Links() {
                   Syllabus
                 </Button>
               </Link>
-              <Link to="https://docs.google.com/document/d/1eEwV4SK4I3DbmzGnPUzbZWkgpW31U8S_0tWnkUIQQIo/edit?usp=sharing">
+              <Link
+                to="https://docs.google.com/document/d/1dNxjMgJDAAZt1sV3LuvicdNiOdJoBZ7oUxvHcLiUaiM/edit"
+                target="_blank"
+              >
                 <Button variant="solidLinkSmall" mb="1rem">
-                  Figma Setup Guide
+                  Collab Policy
                 </Button>
               </Link>
-              {/* <Link to="/">
-                <Button variant="solidLinkSmall">Deployment Guide</Button>
-              </Link> */}
             </Flex>
           </Flex>
 
@@ -94,27 +94,49 @@ export default function Links() {
             alignItems={"flex-start"}
             gap={"2rem"}
           >
-            {/* COURSE FORMS */}
+            {/* GUIDE */}
             <Flex flexDir={"column"}>
               <Text variant="capitalBody" color="lightGrey" mb=".5rem">
-                ASSIGNMENTS
+                Helpful guides
               </Text>
               <Link
-                to="https://www.gradescope.com/courses/715064/assignments"
-                target="blank"
+                to="https://docs.google.com/document/d/1eEwV4SK4I3DbmzGnPUzbZWkgpW31U8S_0tWnkUIQQIo/edit?usp=sharing"
+                target="_blank"
               >
-                <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
-                  <TiDownloadOutline />
-                  Assignment/Studio Handin
+                <Button variant="solidLinkSmall" mb="1rem">
+                  Figma Setup
                 </Button>
               </Link>
               <Link
-                to="https://docs.google.com/forms/d/e/1FAIpQLScoFu1vYAtxhVZIvL0B-WATP2MN1nIcCCZlHvoowJsyWIia7A/viewform?usp=sharing"
-                target="blank"
+                to="https://docs.google.com/document/d/1sdyGOoaKwCv_QTPz4LK0BRJCLDnaHkRDHWBD1-v4HTI/edit?usp=sharing"
+                target="_blank"
               >
-                <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
-                  <TiDownloadOutline />
-                  Regrade Request Form
+                <Button variant="solidLinkSmall" mb="1rem">
+                  Best Accessibility Practices
+                </Button>
+              </Link>
+              <Link
+                to="https://docs.google.com/document/d/1b-6JtScND1sqvD5bt5hRuSIlcjH1a8pZWSrvTuPp-m8/edit?usp=sharing"
+                target="_blank"
+              >
+                <Button variant="solidLinkSmall" mb="1rem">
+                  Best Code Practices
+                </Button>
+              </Link>
+              <Link
+                to="https://docs.google.com/document/d/1r8ai_ylY0wTYrsfwON26Hj9ZSBNp6-PkERCUJ6m-dh0/edit?usp=sharing"
+                target="_blank"
+              >
+                <Button variant="solidLinkSmall" mb="1rem">
+                  Github Pages Deployment
+                </Button>
+              </Link>
+              <Link
+                to="https://docs.google.com/document/d/18iDSwpQtw0Bg7xp9u4Eawh8yhgUiOGDV8WDEiHODEcw/edit?usp=sharing"
+                target="_blank"
+              >
+                <Button variant="solidLinkSmall" mb="1rem">
+                  Vercel Deployment
                 </Button>
               </Link>
             </Flex>
@@ -124,6 +146,15 @@ export default function Links() {
               <Text variant="capitalBody" color="lightGrey" mb=".5rem">
                 logistical
               </Text>
+              <Link
+                to="https://docs.google.com/forms/d/e/1FAIpQLScoFu1vYAtxhVZIvL0B-WATP2MN1nIcCCZlHvoowJsyWIia7A/viewform?usp=sharing"
+                target="blank"
+              >
+                <Button variant="solidLinkSmall" gap=".2rem" mb=".5rem">
+                  <TiDownloadOutline />
+                  Regrade Request Form
+                </Button>
+              </Link>
               <Link
                 to="https://docs.google.com/forms/d/1i_upk4ibvRbVGf_FX6QYqfbiOaBOkAxcyRdBLPAkRnI/edit"
                 target="_blank"
