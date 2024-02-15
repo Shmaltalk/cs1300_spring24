@@ -14,7 +14,7 @@ export default function Links() {
   return (
     <div id="links">
       <Flex
-        justifyContent={"flex-start"}
+        justifyContent={{ md: "flex-start", base: "center" }}
         alignItems={"center"}
         bg="darkGrey"
         flexDir={"column"}
@@ -30,9 +30,10 @@ export default function Links() {
         <Flex
           mt="1rem"
           justifyContent={"center"}
+          alignItems={"center"}
           w="90%"
           flexDir={{ sm: "row", base: "column" }}
-          gap={"2rem"}
+          gap={"2rem"}g
         >
           {/* WEBSITES */}
           <Flex
@@ -87,13 +88,7 @@ export default function Links() {
                 </Button>
               </Link>
             </Flex>
-          </Flex>
 
-          <Flex
-            flexDir={{ md: "row", base: "column" }}
-            alignItems={"flex-start"}
-            gap={"2rem"}
-          >
             {/* GUIDE */}
             <Flex flexDir={"column"}>
               <Text variant="capitalBody" color="lightGrey" mb=".5rem">
