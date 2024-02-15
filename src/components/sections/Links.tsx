@@ -33,7 +33,7 @@ export default function Links() {
           alignItems={"center"}
           w="90%"
           flexDir={{ sm: "row", base: "column" }}
-          gap={"2rem"}g
+          gap={"2rem"}
         >
           {/* WEBSITES */}
           <Flex
