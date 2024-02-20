@@ -119,6 +119,14 @@ export default function Links() {
                 </Button>
               </Link>
               <Link
+                to="https://docs.google.com/document/d/1sNwblpUTgs5lWp1IRB7Q8kPr6MKWqMjA/edit?usp=sharing&ouid=117319924843020253633&rtpof=true&sd=true"
+                target="_blank"
+              >
+                <Button variant="solidLinkSmall" mb="1rem">
+                  Guide to Git & HTML
+                </Button>
+              </Link>
+              <Link
                 to="https://docs.google.com/document/d/1r8ai_ylY0wTYrsfwON26Hj9ZSBNp6-PkERCUJ6m-dh0/edit?usp=sharing"
                 target="_blank"
               >
